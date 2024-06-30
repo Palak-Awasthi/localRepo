@@ -2,7 +2,7 @@
 <title>Battery</title>
 
 <style>
-    h2 {
+    h1 {
         padding: 10px;
         margin: 20px;
         color: blueviolet;
@@ -16,16 +16,19 @@
     form{
         text-align: center;
         border: 10px;
-        margin:120px;
+        margin:auto;
         padding: 10px;
-    
+        border: 10px solid blueviolet;
         font-style: italic;
         color:blueviolet;
+        width: 400px;
     }
 
     input{
           color:blueviolet;
           border-color: rgb(131, 5, 249);
+          box-sizing: content-box;
+          
           
     }
 
@@ -34,10 +37,15 @@
         border-color: rgb(131, 5, 249);
           
     }
+    body{
+        background-color: black;
+        backface-visibility: visible;
+    }
 
 </style>
 
-<h2>Welcome tO Page</h2>
+<body>
+<h1>Welcome to Page</h1>
 <form>
     <label for="name">Name :       
     </label>
@@ -51,4 +59,4 @@
      </label>
     <input type="password" placeholder="Enter Password" name="password">
 
-</form>
+</form></body>
